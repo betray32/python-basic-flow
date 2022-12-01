@@ -4,7 +4,7 @@ import traceback
 class daoComuna:
     def __init__(self):
         try:
-            self.conn = conn.Conex("localhost", "root", "", "Nicolete")
+            self.conn = conn.Conex("localhost", "root", "", "my_db")
             print('conexion establecida correctamente')
         except Exception as ex:
             print(ex)
